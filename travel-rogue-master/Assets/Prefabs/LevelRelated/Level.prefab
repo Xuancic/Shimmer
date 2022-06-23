@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3202826374466832
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3202826374466834}
+  - component: {fileID: 3202826374466835}
+  m_Layer: 0
+  m_Name: Level
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3202826374466834
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3202826374466832}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3202826374466835
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3202826374466832}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 43be58fc9e0b07e4e9a840889dfb606a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dis: 14
+  back_dis: 5
+  mblock_num: 4
+  tblock_num: 2
+  tblock_dis: 1
+  wayFromBeginToBoss: []
+  bossBlockCoord: {x: 0, y: 0}
+  treasureBlockCoord: []
+  monsterBlockCoord: []
+  aroundBlockCoordList: []
+  allExistBlockList: []
+  ori: {fileID: 3915883087187510110, guid: 081958a4c7ce3d94cbf3798b3f14e893, type: 3}
+  boss: {fileID: 3915883087187510110, guid: 929e2c2e871d0824c9d3682cd678787d, type: 3}
+  tre: {fileID: 3915883087187510110, guid: 4bc0a55904463154198bda81560efda2, type: 3}
+  monster: {fileID: 3915883087187510110, guid: e1fe349b120af8249831d26780c79c4e, type: 3}
+  offsetX: 19
+  offsetY: 15
+  bossRoom: {fileID: 0}

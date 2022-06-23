@@ -1,0 +1,66 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5472512947938922837
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5472512947938922839}
+  - component: {fileID: 5472512947938922838}
+  m_Layer: 0
+  m_Name: MapPiecesController
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5472512947938922839
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5472512947938922837}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5472512947938922838
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5472512947938922837}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 41531119f1f645a4f951d491523c5773, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pieceInBag: {fileID: 6001686353914899292, guid: 8e39b8bd7ce3d5d4b8b11cc234634905, type: 3}
+  iniPieceNum: 5
+  clearMonsterPieceNum: 0
+  bagGrid: {fileID: 0}
+  RoomDoorPicList:
+  - {fileID: 21300000, guid: 0034652f9828ddf4ab7dfead4b34feed, type: 3}
+  - {fileID: 21300000, guid: c76bca94f291b244fb2156da97c09535, type: 3}
+  - {fileID: 21300000, guid: 6f8530dbaf2b7164f98bbce5a7558196, type: 3}
+  - {fileID: 21300000, guid: 8f01c28f17b3f0f458f221b6777bea42, type: 3}
+  - {fileID: 21300000, guid: adf85f53a6b23d54398169ab3f110a42, type: 3}
+  - {fileID: 21300000, guid: 1f282df354437ae4580b824a776c8ad3, type: 3}
+  - {fileID: 21300000, guid: 5972005a1b71b6640b8cbd9d2c684f0c, type: 3}
+  - {fileID: 21300000, guid: 6ca19cebf054844448271ec69293f375, type: 3}
+  - {fileID: 21300000, guid: fefdc46bb7ee3854493d21912f409d70, type: 3}
+  - {fileID: 21300000, guid: 5393e986a6d93c946906caf0d756c63e, type: 3}
+  - {fileID: 21300000, guid: d2139a19b548c114bb01df75ab414543, type: 3}
+  mapPieceLayer:
+    serializedVersion: 2
+    m_Bits: 64
+  miniMapCoord: {fileID: 0}
+  MapPieces: []
